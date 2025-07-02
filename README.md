@@ -2,6 +2,20 @@
 
 Sistema fullstack de rastreamento de veículos em tempo real
 
+## 📸 Screenshots
+
+![Dashboard Principal](print1.png)
+_Dashboard principal com mapa interativo e lista de veículos_
+
+![Detalhes do Veículo](print2.png)
+_Modal com detalhes completos do veículo selecionado_
+
+![Sistema de Login](print3.png)
+_Interface de seleção de conta e login_
+
+![Visualização Mobile](print4.png)
+_Versão responsiva para dispositivos móveis_
+
 ## 🚗 Funcionalidades
 
 - Dashboard responsivo com Next.js (React) e Node.js/Express
