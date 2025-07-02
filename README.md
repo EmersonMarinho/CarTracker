@@ -15,13 +15,6 @@ Sistema fullstack de rastreamento de veículos em tempo real
 - Cards de resumo e alertas recentes
 - Totalmente responsivo (funciona em mobile/tablet)
 
-## 🖼️ Prints sugeridos
-
-- Dashboard desktop e mobile
-- Mapa com vários carros e van
-- Modal de detalhes de um veículo
-- Tela de seleção de conta
-
 ## 🚀 Como rodar localmente
 
 1. Clone o repositório
