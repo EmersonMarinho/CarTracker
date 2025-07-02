@@ -8,9 +8,9 @@ import toast from 'react-hot-toast'
 import { io, Socket } from 'socket.io-client'
 import Image from 'next/image'
 import dynamic from 'next/dynamic'
-import GoogleCarMap from '../components/GoogleCarMap'
 import { Vehicle } from '../types'
-// const MapView = dynamic(() => import('../components/MapView'), { ssr: false })
+
+const GoogleCarMap = dynamic(() => import('../components/GoogleCarMap'), { ssr: false })
 
 // Tipos
 interface LocationUpdate {
