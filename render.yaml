@@ -1,0 +1,13 @@
+services:
+  - type: web
+    name: cartracker-backend
+    env: node
+    plan: free
+    buildCommand: npm install
+    startCommand: npm run dev
+    rootDir: backend
+    autoDeploy: true
+    envVars:
+      - key: NODE_ENV
+        value: production
+      # Adicione outras variáveis de ambiente aqui, se necessário
